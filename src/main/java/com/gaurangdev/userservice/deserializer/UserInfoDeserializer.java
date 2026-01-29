@@ -2,7 +2,7 @@ package com.gaurangdev.userservice.deserializer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gaurangdev.userservice.entities.UserInfoDto;
-import org.springframework.core.serializer.Deserializer;
+import org.apache.kafka.common.serialization.Deserializer;
 
 import java.util.Map;
 
